@@ -1,0 +1,20 @@
+{
+  "name": "email-scrapping",
+  "version": "1.0.0",
+  "description": "Scrapping the Email in site",
+  "main": "main.js",
+  "scripts": {
+    "start": "set NODE_ENV=production&& nodemon main.js",
+    "deploy": "npx pm2 start main.js --name email_scrap"
+  },
+  "author": "",
+  "license": "ISC",
+  "git repository": "https://github.com/Joshep422/Email_Scrapping.git",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3",
+    "selenium-webdriver": "^4.21.0"
+  }
+}
